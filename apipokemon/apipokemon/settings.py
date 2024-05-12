@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
-    'polls'
+    'polls',
+    'items'
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'apipokemon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pokemon_schema',
+        'NAME': 'sys',
         'USER': 'root',
         'PASSWORD': 'ProRncLegion94',
         'HOST': '127.0.0.1',
